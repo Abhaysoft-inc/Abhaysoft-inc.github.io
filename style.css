@@ -1,0 +1,182 @@
+*,body{
+    margin:0;
+    padding:0;
+
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ .nav-items{
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .nav-brand{
+    float: left;
+    margin-right: 20em;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .hero{
+    width: 100%;
+    height: 32em;
+    background-color: fuchsia;
+ }
+ .heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 2em;
+ }
+ .desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    word-wrap: normal;
+ }
+ .btn-explore{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-self: center;
+    margin-left: 34em;
+    font-size: large;
+    padding: 10px;
+    margin-top: 75px;
+    border-radius: 5px;
+    border-color: white;
+    background: black;
+    color: white;
+ }
+ .explore{
+    height: 32em;
+    background-color: black;
+
+ }
+ .latest-head{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    color: white;
+    text-decoration: underline;
+ }
+ .row{
+    display: flex;
+    margin-left: 10em;
+ }
+ .column{
+    background-color: white;
+    height: 20em;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    max-width: 239.547px;
+    
+    
+ }
+ .deal{
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ .coupon{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 28px;
+    margin: 12px;
+    border: dashed 2px;
+ }
+ 
+
+ .btn-grab {
+    text-align: center;
+    margin-top: 51px;
+    background: black;
+    width: 100px;
+    margin-left: 54px;
+    padding: 11px;
+    color: white;
+    border-radius: 7px;
+}
+.footer{
+    text-align: center;
+    height: 30px;
+    background-color: gray;
+    padding: 20px;
+    color: white;
+}
+.about-code{
+    text-align: center;
+}
+
+.title{
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: 47px;
+    font-size: 40px;
+}
+.author{
+    margin-bottom: 10px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.para {
+    text-align: start;
+    margin: 40px;
+    font-size: 20px;
+    word-spacing: 0%;
+}
+.tophead{
+    text-align: start;
+    margin: 40px;
+    font-size: 30px;
+}
+
+@media (max-width:480px) {
+    .nav-items{
+        display: none;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .desc{
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+    .explore{
+        height: auto;
+    }
+    .row{
+        display: block;
+        margin-left: 5em;
+        padding-bottom: 80px;
+    }
+    .btn-explore{
+        margin-left: 8em;
+        margin-bottom: 50px;
+    }
+    .hero{
+        height: auto;
+    }
+    .footer{
+        background-color: black;
+        padding: 32px;
+    }
+    
+}
