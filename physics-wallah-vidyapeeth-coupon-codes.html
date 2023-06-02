@@ -47,23 +47,23 @@
             <div class="column">
                 <p class="deal">Get Rs. 1000 OFF On Your <b>Vidyapeeth Admission </b></p>
                 <p class="coupon">9161VVZV</p>
-                <p class="btn-grab">Grab Now!</p>
+                <p class="btn-grab" id="copyButton">Grab Now!</p>
             </div>
             
             <div class="column">
                 <p class="deal">Save 50% OFF on all the  Batches of <b>NEET 2024</b> by Physics Wallah</p>
                 <p class="coupon">9161VVZV</p>
-                <p class="btn-grab">Grab Now!</p>
+                <p class="btn-grab" id="copyButton">Grab Now!</p>
             </div>
             <div class="column">
                 <p class="deal">Save Rs. 250 OFF on all the  Batches of <b>JEE 2024</b> by Physics Wallah</p>
                 <p class="coupon">9161VVZV</p>
-                <p class="btn-grab">Grab Now!</p>
+                <p class="btn-grab" id="copyButton">Grab Now!</p>
             </div>
             <div class="column">
                 <p class="deal">Save Rs. 250 OFF on all the  Batches of <b>UPSC</b> by Physics Wallah</p>
                 <p class="coupon">9161VVZV</p>
-                <p class="btn-grab">Grab Now!</p>
+                <p class="btn-grab" id="copyButton">Grab Now!</p>
             </div>
         </div>
     </div>
@@ -107,6 +107,22 @@
     <div class="footer">
         <p>Copyright &copy; Abhay Vishwakarma | Disclaimer: This site is not official website by Physics Wallah, This is just an Fan Made site</p>
     </div>
+    <script>function copyToClipboard(text) {
+  var dummy = document.createElement("textarea");
+  document.body.appendChild(dummy);
+  dummy.value = text;
+  dummy.select();
+  document.execCommand("copy");
+  document.body.removeChild(dummy);
+}
+
+function handleCopyButtonClick() {
+  var textToCopy = "9161VVZV"; // Text to copy
+  copyToClipboard(textToCopy);
+  console.log("Text copied to clipboard: " + textToCopy);
+}
+    var copyButton = document.getElementById("copyButton");
+copyButton.addEventListener("click", handleCopyButtonClick);</script>
 </body>
 
 </html>
